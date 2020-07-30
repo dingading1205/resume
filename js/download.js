@@ -7,20 +7,20 @@ const $on = (el, ev, fn) => {
   return el;
 };
 
-const link = (name) => {
-  var a = document.createElement("a");
-  a.setAttribute("href", "url/" + name + ".pdf");
-  a.setAttribute("download", name);
-  a.click();
-  console.log(a);
-};
+// const link = (name) => {
+//   var a = document.createElement("a");
+//   a.setAttribute("href", "url/" + name + ".pdf");
+//   a.setAttribute("download", name);
+//   a.click();
+//   console.log(a);
+// };
 
 // $('#lebenslauf').click(function (){
 //     console.log("aa")
 
 // $('#lebenslauf').on("click", e => link("lebenslauf"));
 
-$on($("#lebenslauf"), "click", (e) => link("lebenslauf"));
+// $on($("#lebenslauf"), "click", (e) => link("lebenslauf"));
 
 let i = 1;
 let msg = document.getElementById("hello").innerHTML;
