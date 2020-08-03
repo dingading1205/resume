@@ -168,11 +168,12 @@ body a:hover {
   padding-right: 10%;
 }
 
-.kenntnisse {
+
+/* .kenntnisse {
   position: relative;
   padding-left: 10%;
   padding-right: 10%;
-}
+} */
 
 /* .kenntnisse-row {
   margin-top: 2em;
@@ -310,6 +311,11 @@ figure.effect-ming:hover img{
   padding-left: 10%;
   padding-right: 10%;
   margin-bottom: 10em;
+}
+
+.download a {
+  margin-top: 1em;
+  margin-right: 3em;
 }
 
 button {
