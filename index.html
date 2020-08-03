@@ -1,232 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sihua Ding</title>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all"/>
-
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap.css"
+      media="all"
+    />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
 
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- <script type="text/javascript" src="data.js" defer></script> -->
-    <script type="text/javascript" src="js/download.js" defer></script>
+    <script type="text/javascript" src="data.js" defer></script>
+    <script type="text/javascript" src="js/print.js" defer></script>
+    <script type="text/javascript" src="js/loadData.js" defer></script>
 
     <script type="text/javascript">
-        new WOW().init();
+      new WOW().init();
     </script>
     <script type="text/javascript">
-        jQuery(document).ready(function($){
-            $('.scroll').click(function(event){
-                event.preventDefault();
-//					console.log(this.hash);
-                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-            });
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          //					console.log(this.hash);
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
         });
+      });
     </script>
-
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation -->
     <div class="navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav">
-                    <span class="sr-only">T</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav navbar-left cl-effect-5">
-                    <li><a href="#Background" class="scroll"><span data-hover="Background">Background</span></a></li>
-                    <li><a href="#Erfahung" class="scroll"><span data-hover="Erfahung">Erfahung</span></a></li>
-                    <li><a href="#Kenntnisse" class="scroll"><span data-hover="Kenntnisse">Kenntnisse</span></a></li>
-                    <li><a href="#Download" class="scroll"><span data-hover="Download">Download</span></a></li>
-                    <li class="contact wow pulse animate" data-wow-delay="300ms" data-wow-iteration="infinite">
-                        <h4>Phone: 01637173235</h4>
-                        <h4>E-mail: dingsh1205@gmail.com</h4>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-            </div>
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+          >
+            <span class="sr-only">T</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-left cl-effect-5">
+            <li>
+              <a href="#Background" class="scroll"
+                ><span data-hover="Hintergrund">Hintergrund</span></a
+              >
+            </li>
+            <li>
+              <a href="#Erfahrung" class="scroll"
+                ><span data-hover="Erfahrungen">Erfahrungen</span></a
+              >
+            </li>
+            <li>
+              <a href="#Kenntnisse" class="scroll"
+                ><span data-hover="Kenntnisse">Kenntnisse</span></a
+              >
+            </li>
+            <li>
+              <a href="#Download" class="scroll"
+                ><span data-hover="Download">Download</span></a
+              >
+            </li>
+            <li
+              class="contact wow pulse animate"
+              data-wow-delay="300ms"
+              data-wow-iteration="infinite"
+            >
+              <h4>Phone: 01637173235</h4>
+              <h4>E-mail: dingsh1205@gmail.com</h4>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </div>
     </div>
     <!-- End Navigation -->
 
     <!-- Intro -->
     <div id="home" class="intro">
-        <div class="row">
-            <div class="col-lg-12"></div>
-            <div class="col-lg-3 col-md-3">
-                <div class="photo wow rollIn animate" data-wow-delay="0.5s"><img src="img/Foto_Dingsihua.jpeg" alt=""/></div>
-                <h3 id="hello">Hallo, Ich bin Sihua Ding. </h3>
-            </div>
-            <div class="introtext col-lg-9 col-md-9">
-                <h3> Zertifikate mit "Moderne Webanwendungen mit JavaScript" </h3>
-                <h4> - JavaScript, HTML, CSS </h4>
-                <h4> - Node.js, ReactJS, Websockets</h4>
-                <h4> - Test Driven Development</h4>
-            </div>
-
+      <div class="row">
+        <div class="col-lg-12"></div>
+        <div class="col-lg-3 col-md-3">
+          <div class="photo wow rollIn animate" data-wow-delay="0.5s">
+            <img src="img/Foto_Dingsihua.jpeg" alt="" />
+          </div>
+          <h3 id="hello">Hallo, Ich bin Sihua Ding.</h3>
         </div>
-
-
+        <div class="introtext col-lg-9 col-md-9">
+          <h3>Zertifikat mit "Moderne Webanwendungen mit JavaScript"</h3>
+          <h4>- JavaScript, HTML, CSS</h4>
+          <h4>- Node.js, ReactJS, Websockets</h4>
+          <h4>- Test Driven Development</h4>
+        </div>
+      </div>
     </div>
-
 
     <!-- End Intro -->
 
     <!-- Background -->
-    <div id="Background" class="background">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title1 wow fadeInDown animate"><h2>Academische Erfahrungen</h2></div>
-                <!-- <div class="row mt-5"></div> -->
-                <div class="col-lg-3 col-md-3">
-                    <h3>11.2019-04.2020</h3>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>Weiterbildung zur zertifizierten JavaScript-Entwicklerin </h3>
-                    <h3>Webmasters Akademie</h3>
-                    <h4>Abschlussnote: 1,7</h4>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                    <h3>03.2015-06.2017</h3>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>Master of Arts: Globale Management </h3>
-                    <h3>Hochschule für Angewandte Wissenschaften Hof, Hof </h3>
-                    <h4> Vertiefungsgebiet: Value Chain Management</h4>
-                    <h4>Abschlussnote: 1,9</h4>
-                </div>
-                <!-- <div class="row mt-5"></div> -->
-                <div class="col-lg-3 col-md-3">
-                    <h3>09.2009-07.2013</h3>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>Bachelor of Management: Logistics Management</h3>
-                    <h3>Tongji Universität, Shanghai</h3>
-                </div>
-                
-            </div> 
-        </div>
 
-    </div>
-
+    <div id="Background" class="row"></div>
     <!-- End Background -->
 
     <!-- Working Experience -->
-    <div id="Erfahung" class="erfahung">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title1 wow fadeInDown animate"><h2>Berufliche Erfahrungen</h2></div>
-                <div class="col-lg-3 col-md-3">
-                    <h3>08.2017-10.2019</h3>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>Elternzeit </h3>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                    <h3>03.2013-09.2014</h3>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>ERP SCM Consultant, </h3>
-                    <h3>HAND Enterprise Solutions Co., Ltd. (Shanghai, China)</h3>
-                    <h4>Implementierung der SCM- Module (Kauf, Inventar und Verkauf), Analyse des Businessprozess, Dokumentierung der Entwicklung, Systemkonfiguration, Kundenschulungen und Systemwartung. </h4>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                    <h3>02.2016-08.2016</h3>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>Praktikum in der Abteilung Asia Market, </h3>
-                    <h3>Windeln.de SE (München)</h3>
-                    <h4>Bearbeitung von komplizierten Kundenanfragen des Asia Markt in Zusammenarbeit mit anderen Fachabteilungen</h4>
-                    <h4>Mithilfe bei der Betreuung und Steuerung des asiatischen Service Centers</h4>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                    <h3>07.2012-01.2013</h3>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <h3>Praktikum in der Abteilung Logistik,</h3>
-                    <h3>Mary Kay (China) Cosmetics Co., Ltd. (Shanghai) </h3>
-                    <h4>Unterstützung des Lieferantenmanagements, Verfolgung der Transportaufträge</h4>
-                    <h4>Bewertung der Lieferantenleistung mit monatlichen Berichten und KPI-Daten</h4>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    <div id="Erfahrung" class="row"></div>
 
     <!-- End Working Experience -->
 
-
     <!-- Kenntnisse -->
-    <div>
-        <div id="Kenntnisse" class="kenntnisse">
-            <div class="title1"><h2>Kenntnisse</h2></div>
-                <div class="kenntnisse-row">
-                    <div class="col-md-4 grid wow zoomIn animate">
-                        <figure class="effect-ming">
-                            <img src="img/green.jpg" alt=""/>
-                            <figcaption>
-                                <h5>Sprache Kenntnisse</h5>
-                                <p>Chinesisch: Muttersprache</p>
-                                <p>Englisch: C1</p>
-                                <P>Deutsch: B2</P>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 grid wow zoomIn animate">
-                        <figure class="effect-ming">
-                            <img src="img/green.jpg" alt=""/>
-                            <figcaption>
-                                <h5>EVD Kenntnisse</h5>
-                                <p>Microsoft Office: Excel, Word, PPT, Outlook</p>
-                                <p>Oracle EBS, SAP</p>
-                                <p>Javascript,HTML,CSS,SQL</p>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 grid wow zoomIn animate">
-                        <figure class="effect-ming">
-                            <img src="img/green.jpg" alt=""/>
-                            <figcaption>
-                                <h5>Hobby</h5>
-                                <p>Erhu (ein Musikinstrument)</p>
-                                <p>Schwimmen</p>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-        </div>
+
+    <div id="Kenntnisse" class="kenntnisse">
+      <!-- <h2 class="title1">Kenntnisse</h2>
+        <div class="row">
+          <div class="col-md-4 grid wow zoomIn animate">
+            <figure class="effect-ming">
+              <img src="img/green.jpg" alt="" />
+              <figcaption>
+                <h5>Sprache Kenntnisse</h5>
+                <p>Chinesisch: Muttersprache</p>
+                <p>Englisch: C1</p>
+                <p>Deutsch: B2</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 grid wow zoomIn animate">
+            <figure class="effect-ming">
+              <img src="img/green.jpg" alt="" />
+              <figcaption>
+                <h5>EVD Kenntnisse</h5>
+                <p>Microsoft Office: Excel, Word, PPT, Outlook</p>
+                <p>Oracle EBS, SAP</p>
+                <p>Javascript,HTML,CSS,SQL</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 grid wow zoomIn animate">
+            <figure class="effect-ming">
+              <img src="img/green.jpg" alt="" />
+              <figcaption>
+                <h5>Hobby</h5>
+                <p>Erhu (ein Musikinstrument)</p>
+                <p>Schwimmen</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="clearfix"></div> 
+      </div> -->
     </div>
 
     <!-- End Kenntnisse -->
 
     <!-- Download -->
     <div id="Download" class="download">
-        <div class="title1"><h2>Download</h2></div>
-            <!-- <button id="lebenslauf" type="button" class="btn btn-success">Lebenslauf</button>
-            <button id="Zertificate" type="button" class="btn btn-success">Zertificate</button> -->
-        <a href="doc/Lebenslauf_Ding.pdf" download="Lebenslauf_Ding" class="btn btn-success btn-lg download1">Lebenslauf</a> <br/><br/>
-        <a href="doc/Zertifikate_Ding.pdf" download="Zertifikate_Ding" class="btn btn-success btn-lg download1">Zertifikate</a>
+      <h2 class="title1">Download</h2>
+
+      <a
+        href="doc/Lebenslauf_Ding.pdf"
+        download="Lebenslauf_Ding"
+        class="btn btn-success btn-lg download1"
+        >Lebenslauf</a
+      >
+      <br /><br />
+      <a
+        href="doc/Zertifikate_Ding.pdf"
+        download="Zertifikate_Ding"
+        class="btn btn-success btn-lg download1"
+        >Zertifikate</a
+      >
     </div>
     <!-- End Download -->
-
-    <div>
-        <a href="#homne" class="scroll">biao</a>
-    </div>
-
-    
-
-
-</body>
+  </body>
 </html>

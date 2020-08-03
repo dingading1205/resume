@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 body a {
@@ -40,18 +39,6 @@ body a:hover {
   background-color: #008369;
 }
 
-/* .logo h1 {
-  font-size: 3.5em;
-  display: inline-block;
-  line-height: 1em;
-}
-
-.logo h1 a {
-  color: black;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-} */
 .photo {
   position: relative;
   padding-left: 10%;
@@ -71,6 +58,10 @@ body a:hover {
 	transform: scale(1.1);
 }
 
+.intro h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .navbar ul li {
   margin-left: 4em;
   display: inline-block;
@@ -79,7 +70,7 @@ body a:hover {
 .navbar ul li a {
   font-size: 2em;
   color:azure;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   line-height: 35px;
   font-weight: 400;
   z-index: 999;
@@ -147,14 +138,24 @@ body a:hover {
   padding-right: 10%;
 }
 
-.title1 h2 {
+.title1  {
   font-size: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-top: 0.5em;
   padding-left: 0.5em;
   color: azure;
   background-color: #00C09A;
   border-bottom: 1px solid #cfd760;
 }
+
+.row h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.row h4 {
+  font-weight: bold;
+}
+
 .col-lg-12 {
   /* margin-right: 10%;
     margin-left: 10%; */
@@ -168,16 +169,17 @@ body a:hover {
   padding-right: 10%;
 }
 
-.kenntnisse-row {
+/* .kenntnisse-row {
   margin-top: 2em;
 }
 
 .kenntnisse-row img {
   width: 100%;
-}
+} */
 
 .grid {
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .grid figure {
@@ -212,11 +214,12 @@ body a:hover {
 
 .grid figure h5 {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .grid figure p {
   font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 figure.effect-ming {
@@ -304,9 +307,12 @@ figure.effect-ming:hover img{
   margin-bottom: 10em;
 }
 
-.download1 {
-  width: 200px;
+button {
+  font-weight: bold;
 }
+/* .download1 {
+  width: 200px;
+} */
 
 @media (max-width: 1760px) {
   .grid figure h5 {
