@@ -65,18 +65,21 @@ var DATA = [
 var SKILLSDATA = [
   {
     skill: "Sprache Kenntnisse",
-    details: ["Chinesisch: Muttersprache", "Englisch: C1", "Deutsch: B2"],
+    details: [
+      "- Chinesisch: Muttersprache", 
+      "- Englisch: C1", 
+      "- Deutsch: B2"],
   },
   {
     skill: "EDV Kenntnisse",
     details: [
-      "Javascript,HTML,CSS,SQL",
-      "Microsoft Office: Excel, Word, PPT, Outlook",
-      "Oracle EBS, SAP",
+      "- Javascript,HTML,CSS,SQL",
+      "- Excel, Word, PPT, Outlook",
+      "- Oracle EBS, SAP",
     ],
   },
   {
     skill: "Hobby",
-    details: ["Erhu (ein Musikinstrument)", "Schwimmen, Kochen"],
+    details: ["- Erhu (ein Musikinstrument)", "- Schwimmen","- Wandern"],
   },
 ];

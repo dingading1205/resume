@@ -152,8 +152,13 @@ body a:hover {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.row h4 {
+.col-md-9 h4 {
   font-weight: bold;
+  font-size: 1.5em;
+}
+
+.col-md-9 p {
+  font-size: 1.2em;
 }
 
 .col-lg-12 {
@@ -179,7 +184,7 @@ body a:hover {
 
 .grid {
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .grid figure {
@@ -195,7 +200,7 @@ body a:hover {
 }
 
 .grid figure figcaption{
-	padding: 1em;
+	padding: 0.5em;
 	color: #FFF;
 	position: absolute;
 	top: 0;
@@ -219,7 +224,7 @@ body a:hover {
 
 .grid figure p {
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 0.8em;
 }
 
 figure.effect-ming {

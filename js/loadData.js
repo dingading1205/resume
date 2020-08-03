@@ -39,7 +39,7 @@
 
       if (item.details) {
         item.details.map((detail) => {
-          createDomElement(detail, "h4", col9Div);
+          createDomElement(detail, "p", col9Div);
         });
       }
 
