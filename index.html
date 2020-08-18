@@ -1,146 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sihua Ding</title>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="css/bootstrap.css"
-      media="all"
-    />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sihua Ding</title>
 
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="data.js" defer></script>
-    <script type="text/javascript" src="js/print.js" defer></script>
-    <script type="text/javascript" src="js/loadData.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
 
-    <script type="text/javascript">
-      new WOW().init();
-    </script>
-    <script type="text/javascript">
-      jQuery(document).ready(function ($) {
-        $(".scroll").click(function (event) {
-          event.preventDefault();
-          //					console.log(this.hash);
-          $("html,body").animate(
-            { scrollTop: $(this.hash).offset().top },
-            1000
-          );
-        });
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="data.js" defer></script>
+  <script type="text/javascript" src="js/print.js" defer></script>
+  <script type="text/javascript" src="js/loadData.js" defer></script>
+
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        //					console.log(this.hash);
+        $("html,body").animate(
+          { scrollTop: $(this.hash).offset().top },
+          1000
+        );
       });
-    </script>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <div class="navbar">
-      <div class="container">
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-          >
-            <span class="sr-only">T</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav navbar-left cl-effect-5">
-            <li>
-              <a href="#Background" class="scroll"
-                ><span data-hover="Hintergrund">Hintergrund</span></a
-              >
-            </li>
-            <li>
-              <a href="#Erfahrung" class="scroll"
-                ><span data-hover="Erfahrungen">Erfahrungen</span></a
-              >
-            </li>
-            <li>
-              <a href="#Kenntnisse" class="scroll"
-                ><span data-hover="Kenntnisse">Kenntnisse</span></a
-              >
-            </li>
-            <li>
-              <a href="#Download" class="scroll"
-                ><span data-hover="Download">Download</span></a
-              >
-            </li>
-            <li
-              class="contact wow pulse animate"
-              data-wow-delay="300ms"
-              data-wow-iteration="infinite"
-            >
-              <h4>Phone: 01637173235</h4>
-              <h4>E-mail: dingsh1205@gmail.com</h4>
-            </li>
-          </ul>
-          <div class="clearfix"></div>
-        </div>
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav">
+          <span class="sr-only">T</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navbar-left cl-effect-5">
+          <li>
+            <a href="#Background" class="scroll"><span data-hover="Hintergrund">Hintergrund</span></a>
+          </li>
+          <li>
+            <a href="#Erfahrung" class="scroll"><span data-hover="Erfahrungen">Erfahrungen</span></a>
+          </li>
+          <li>
+            <a href="#Kenntnisse" class="scroll"><span data-hover="Kenntnisse">Kenntnisse</span></a>
+          </li>
+          <li>
+            <a href="#Download" class="scroll"><span data-hover="Download">Download</span></a>
+          </li>
+          <li class="contact wow pulse animate" data-wow-delay="300ms" data-wow-iteration="infinite">
+            <h4>Phone: 01637173235</h4>
+            <h4>E-mail: dingsh1205@gmail.com</h4>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
       </div>
     </div>
-    <!-- End Navigation -->
+  </div>
+  <!-- End Navigation -->
 
-    <!-- Intro -->
-    <div id="home" class="row">
-        <div class="row">
-          <div class="col-lg-3 col-md-3">
-            <div class="photo wow rollIn animate" data-wow-delay="0.5s">
-              <img src="img/Foto_Dingsihua.jpeg" alt="" />
-            </div>
-            <h3 id="hello">Hallo, Ich bin Sihua Ding.</h3>
-            </div>
-          <div class="introtext col-lg-9 col-md-9">
-            <h3>Zertifikat mit "Moderne Webanwendungen mit JavaScript"</h3>
-            <h4>- JavaScript, HTML, CSS</h4>
-            <h4>- Node.js, ReactJS, Websockets</h4>
-            <h4>- Test Driven Development</h4>
-          </div>
-        </div>      
+  <!-- Intro -->
+  <div id="home" class="row">
+    <div class="row">
+      <div class="col-lg-3 col-md-3">
+        <div class="photo wow rollIn animate" data-wow-delay="0.5s">
+          <img src="img/Foto_Dingsihua.jpeg" alt="" />
+        </div>
+        <h3 id="hello">Hallo, Ich bin Sihua Ding.</h3>
+      </div>
+      <div class="introtext col-lg-9 col-md-9">
+        <h3>Zertifikat "Moderne Webanwendungen mit JavaScript"</h3>
+        <h4>- JavaScript, HTML, CSS</h4>
+        <h4>- Node.js, React, Websockets</h4>
+        <h4>- Test Driven Development</h4>
+      </div>
     </div>
+  </div>
 
-    <!-- End Intro -->
+  <!-- End Intro -->
 
-    <!-- Background -->
+  <!-- Background -->
 
-    <div id="Background" class="row"></div>
-    <!-- End Background -->
+  <div id="Background" class="row"></div>
+  <!-- End Background -->
 
-    <!-- Working Experience -->
-    <div id="Erfahrung" class="row"></div>
+  <!-- Working Experience -->
+  <div id="Erfahrung" class="row"></div>
 
-    <!-- End Working Experience -->
+  <!-- End Working Experience -->
 
-    <!-- Kenntnisse -->
+  <!-- Kenntnisse -->
 
-    <div id="Kenntnisse" class="row"></div>
+  <div id="Kenntnisse" class="row"></div>
 
-    <!-- End Kenntnisse -->
+  <!-- End Kenntnisse -->
 
-    <!-- Download -->
-    <div id="Download" class="download">
-      <h2 class="title1">Download</h2>
-        <a
-        href="doc/Lebenslauf_Ding.pdf"
-        download="Lebenslauf_Ding"
-        class="btn btn-success btn-lg download1"
-        >Lebenslauf</a>
-        <a
-        href="doc/Zertifikate_Ding.pdf"
-        download="Zertifikate_Ding"
-        class="btn btn-success btn-lg download1"
-        >Zertifikate</a>     
-    </div>
-    <!-- End Download -->
-  </body>
+  <!-- Download -->
+  <div id="Download" class="download">
+    <h2 class="title1">Download</h2>
+    <a href="doc/Lebenslauf_Ding.pdf" download="Lebenslauf_Ding" class="btn btn-success btn-lg download1">Lebenslauf</a>
+    <a href="doc/Zertifikate_Ding.pdf" download="Zertifikate_Ding"
+      class="btn btn-success btn-lg download1">Zertifikate</a><br /><br />
+    <a href="https://dingading1205.github.io/puzzle/" class="btn btn-success btn-lg download1">React_Puzzle</a>
+    <br /><br />
+  </div>
+  <!-- End Download -->
+</body>
+
 </html>
